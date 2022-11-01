@@ -2,9 +2,8 @@ body{
     color: white;
     background-color: black;
     background-size: cover;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-image: url(./img/fundo.png);
-    background-image: url(./img/FUNDOPRETO.png);
 }
 
 .fundo{
@@ -136,7 +135,17 @@ header{
     color: whitesmoke;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+/*
+.main{
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+.primeira{
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid yellow;
+}*/
 .centropoha{
     justify-content: center;
     display: flex;
@@ -170,14 +179,9 @@ header{
     box-sizing: border-box;
 }
 
-.cordapegadinha h1{
-    color: whitesmoke;
-}
-
-/*
 .input{
     justify-content: left;
-}*/
+}
 
 .centro{
     display: flex;
@@ -194,7 +198,33 @@ header{
 	font-size:13px;
 	text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;    
 }
+/*
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    margin-left: -15%;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
 
+.botoes{
+    display: inline-block;
+    margin-left: -15%;
+}*/
 .button {
     display: inline-block;
     border-radius: 4px;
@@ -246,9 +276,4 @@ header{
     justify-content: center;
     color: whitesmoke;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.alinhamento{
-    display: flex;
-    justify-content: center;    
 }
